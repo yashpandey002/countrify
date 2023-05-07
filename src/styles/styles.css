@@ -1,0 +1,157 @@
+body {
+    background-color: var(--main-white);
+}
+
+.main__heading {
+    color: var(--main-black);
+    font-weight: 700;
+    font-size: 5.6rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 11.2rem;
+    margin-bottom: 2.4rem;
+}
+
+/**************************/
+/* Search bar */
+/**************************/
+
+.search__mainBox {
+    max-width: 90rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--lightest-grey);
+    border-radius: 5px;
+    height: auto;
+
+    margin-bottom: 9.6rem;
+    position: relative;
+
+    cursor: text;
+}
+
+.search__mainBox::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: var(--light-grey);
+    left: 5.6rem;
+}
+
+.search__icon-input__wrapper {
+    align-items: center;
+}
+
+.search__iconBox {
+    margin-right: 20px;
+}
+
+.search__icon {
+    font-size: 2.4rem;
+    color: var(--light-grey);
+    padding: 0 1.6rem;
+}
+
+.search__inputBox {
+    padding-right: 2rem;
+    width: 100%;
+}
+
+.search__input {
+    background-color: var(--lightest-grey);
+    font-size: 1.8rem;
+    color: #4d4c4c;
+    width: 100%;
+    /* border-bottom: 1px solid var(--light-grey); */
+}
+
+.search__btn {
+    font-size: 1.6rem;
+    padding: 1.6rem 2.4rem;
+
+    background-color: var(--main-black);
+    color: var(--main-white);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/**************************/
+/* Contry flag section */
+/**************************/
+
+.country {
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 6.4rem;
+}
+
+.country__flag {
+    margin-bottom: 2rem;
+}
+
+.country__name {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.country__region {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/**************************/
+/* Contry info in table */
+/**************************/
+
+.country__info-heading {
+    font-size: 2.4rem;
+    font-weight: 400;
+
+    margin-bottom: 1.6rem;
+}
+
+.country__info-table {
+    width: 100%;
+    font-size: 1.8rem;
+
+    border-collapse: separate;
+    border-spacing: 0 1.6rem;
+}
+
+.country__info-table tr td {
+    padding: 1.6rem;
+    vertical-align: top;
+}
+
+.country__info-table tr td:first-child {
+    background-color: #d9d9d9;
+    border-left: 0;
+    width: 20%;
+}
+
+.country__info-table tr td:last-child {
+    background-color: #e6e6e6;
+    border-left: 0;
+    width: 80%;
+}
+
+/**************************/
+/* Error message */
+/**************************/
+
+.error__emoji {
+    font-size: 9.6rem;
+    text-align: center;
+    color: rgb(219, 219, 31);
+}
+
+.error__text {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    text-align: center;
+}

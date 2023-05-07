@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Countries</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="./src/styles/general.css"
+            type="text/css"
+        />
+        <link rel="stylesheet" href="./src/styles/styles.css" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="./src/styles/queries.css"
+            type="text/css"
+        />
+        <script src="./src/app/app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="main__heading">Get any country’s Information</h1>
+                <div class="search__mainBox flex">
+                    <div class="search__icon-input__wrapper flex">
+                        <div class="search__iconBox">
+                            <ion-icon
+                                name="search-outline"
+                                class="search__icon"
+                            ></ion-icon>
+                        </div>
+                        <div class="search__inputBox">
+                            <input type="text" class="search__input" />
+                        </div>
+                    </div>
+                    <div class="search__btnBox">
+                        <a href="#" class="search__btn">Search</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <div class="container">
+                <div class="country country__header flex hide">
+                    <!-- <div class="country__flagBox">
+                        <img
+                            src="./assets/img/india 1.png"
+                            class="country__flag"
+                        />
+                    </div>
+                    <div class="country__textBox">
+                        <div class="country__name"></div>
+                        <div class="country__region"></div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="container country__tableContainer hide">
+                <h2 class="country__info-heading">Information</h2>
+                <table class="country__info-table">
+                    <!-- <tbody class="country__info-table__body">
+                        
+                        <tr>
+                            <td>Government Type</td>
+                            <td>Semi-presidential republic</td>
+                        </tr>
+
+                        <tr>
+                            <td>GDP - real growth rate</td>
+                            <td>2.3%</td>
+                        </tr>
+
+                        <tr>
+                            <td>GDP - per capita (PPP)</td>
+                            <td>$44,100.00 (USD)</td>
+                        </tr>
+                    </tbody> -->
+                </table>
+            </div>
+        </main>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>

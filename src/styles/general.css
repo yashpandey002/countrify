@@ -1,0 +1,59 @@
+:root {
+    --main-white: #f5f5f5;
+    --main-black: #1b1b1b;
+    --lightest-grey: #dfdfdf;
+    --light-grey: #9c9a9a;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+input {
+    border: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
